@@ -9,20 +9,20 @@ class Navbar extends React.Component {
         <ul className="menu">
           <li className="menu-text">Boiler Plate</li>
               <li>
-                     <IndexLink to="/" activeClassName="active-link">Home</IndexLink>
+                     <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Home</IndexLink>
                    </li>
                    <li>
-                     <Link to="/contact" activeClassName="active-link">Contact</Link>
+                     <Link to="/contact" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Contact</Link>
                    </li>
                    <li>
-                     <Link to="/about" activeClassName="active-link">About</Link>
+                     <Link to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About</Link>
                    </li>
                  </ul>
                </div>
-               <div className="top-bar-right">
-                   <ul className="menu">
+               <div className="top-bar-right align-right">
+                   <ul className="menu align-right">
                      <li className="menu-text">
-                       Created by <a href="#" target="_blank">Simon Biddle</a>
+                       Created by <a href="#" target="_blank">Element Web</a>
                      </li>
                    </ul>
       </div>

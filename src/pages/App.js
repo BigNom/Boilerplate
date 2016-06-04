@@ -1,14 +1,15 @@
 import React from 'react';
 
 import Navbar from '../components/navbar';
+import Footer from '../components/footer';
 
 class App extends React.Component {
 	render() {
 		return (
 			<div>
-                <Navbar/>
-				<h1>Boilerplate Project</h1>
+        <Navbar/>
 				{this.props.children}
+				<Footer />
 			</div>
 		);
 	}
