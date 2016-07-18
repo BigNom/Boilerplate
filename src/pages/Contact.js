@@ -13,7 +13,7 @@ class Contact extends React.Component {
           </div>
           </div>
 
-          <div className="row">
+          <div className="row expanded">
               <h1 className="page-sub-heading">Subheading</h1>
           <div className="large-7 columns">
 
@@ -42,7 +42,7 @@ class Contact extends React.Component {
         </div>
         </div>
           </div>
-          <div className="row">
+          <div className="row expanded">
           <div className="large-7 columns">
             <div className="callout small">
     <h3 className="callout-title">This is a large callout</h3>
