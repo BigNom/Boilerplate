@@ -14,17 +14,12 @@ class About extends React.Component {
                 </div>
 
                 <div className="row">
-                    <h1 className="page-sub-heading">Subheading</h1>
+                    <h1 className="page-sub-heading">This page is in progress</h1>
                 <div className="large-7 columns">
 
                   <div className="callout small">
           <h5>This is a large callout</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            mollit anim id est laborum.</p>
+          <p>Reactive Web Designs are a Perth based specialising in single page applications.</p>
           <a href="#">This is a link</a>
         </div>
         </div>

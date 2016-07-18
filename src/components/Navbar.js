@@ -7,7 +7,7 @@ class Navbar extends React.Component {
                 <div className="top-bar">
       <div className="top-bar-left">
         <ul className="menu">
-          <li className="menu-text">Boiler Plate</li>
+          <li className="menu-text">RWD</li>
               <li>
                      <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Home</IndexLink>
                    </li>
@@ -22,7 +22,7 @@ class Navbar extends React.Component {
                <div className="top-bar-right align-right">
                    <ul className="menu align-right">
                      <li className="menu-text">
-                       Created by <a href="#" target="_blank">Element Web</a>
+                       Created by <a href="index.html" target="_blank">Element Web</a>
                      </li>
                    </ul>
       </div>
